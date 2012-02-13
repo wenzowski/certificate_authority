@@ -96,9 +96,9 @@ Here's an example of a full signing profile for most of the common V3 extensions
        "extendedKeyUsage" => {"usage" => [ "serverAuth","clientAuth"]},
        "subjectAltName" => {"uris" => ["http://subdomains.youFillThisOut/"]},
        "certificatePolicies" => {
-       "policy_identifier" => "1.3.5.8", "cps_uris" => ["http://my.host.name/", "http://my.your.name/"], 
+       "policy_identifier" => "1.3.5.8", "cps_uris" => ["http://my.host.name/", "http://my.your.name/"],
          "user_notice" => {
-          "explicit_text" => "Explicit Text Here", 
+          "explicit_text" => "Explicit Text Here",
          "organization" => "Organization name",
          "notice_numbers" => "1,2,3,4"
          }
